@@ -1,0 +1,13 @@
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="127" height="105"  viewBox="0 0 255 210">
+    <rect x="0" y="0" height="310" width="255"
+          style="stroke:#00000; fill: #ffff00"/>
+    <rect x="0" y="0" height="90" width="90"
+          style="stroke:#000000; fill: #0000ff"/>
+    <rect x="120" y="0" height="90" width="135"
+          style="stroke:#000000; fill: #0000ff"/>
+    <rect x="0" y="120" height="90" width="90"
+          style="stroke:#000000; fill: #0000ff"/>
+    <rect x="120" y="120" height="90" width="135"
+          style="stroke:#000000; fill: #0000ff"/>
+</svg>

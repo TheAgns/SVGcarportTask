@@ -1,0 +1,82 @@
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="800" height="600"  viewBox="0 0 855 800">
+    <!--Stolper -->
+    <!--Øverste stolper -->
+    <rect x="100" y="70" width="10" height="10" style="stroke:#000000; fill: #ffffff" ></rect>
+    <rect x="410" y="70" width="10" height="10" style="stroke:#000000; fill: #ffffff"></rect>
+    <rect x="750" y="70" width="10" height="10" style="stroke:#000000; fill: #ffffff"></rect>
+
+    <!--Stolper -->
+    <!--Nedersete stolper -->
+    <rect x="100" y="525.5" width="10" height="10" style="stroke:#000000; fill: #ffffff"></rect>
+    <rect x="410" y="525.5" width="10" height="10" style="stroke:#000000; fill: #ffffff"></rect>
+    <rect x="750" y="525.5" width="10" height="10" style="stroke:#000000; fill: #ffffff"></rect>
+
+    <line x1="0" x2="780" y1="0" y2="0" stroke-width="1" stroke="black"></line>
+    <line x1="0" x2="0" y1="0" y2="600" stroke-width="1" stroke="black"></line>
+    <line x1="0" x2="780" y1="600" y2="600" stroke-width="1" stroke="black"></line>
+    <line x1="780" x2="780" y1="600" y2="0" stroke-width="1" stroke="black"></line>
+    <line x1="776.5" x2="776.5" y1="600" y2="0" stroke-width="1" stroke="black"></line>
+    <line x1="4.5" x2="4.5" y1="600" y2="0" stroke-width="1" stroke="black"></line>
+    <!--remme top -->
+    <line x1="0" x2="780" y1="70" y2="70" stroke-width="1" stroke="black"></line>
+    <line x1="0" x2="780" y1="74.5" y2="74.5" stroke-width="1" stroke="black"></line>
+    <!--remme bund -->
+    <line x1="0" x2="780" y1="535.5" y2="535.5" stroke-width="1" stroke="black"></line>
+    <line x1="0" x2="780" y1="530" y2="530" stroke-width="1" stroke="black"></line>
+
+    <!--Her laver vi X, hulbånd -->
+    <line stroke-dasharray="6" x1="495" x2="55" y1="74.5" y2="530" stroke-width="1" stroke="black"></line>
+    <line stroke-dasharray="6" x1="55" x2="495" y1="74.5" y2="530" stroke-width="1" stroke="black"></line>
+
+   <defs>
+        <marker
+                id="beginArrow"
+                markerWidth="12"
+                markerHeight="12"
+                refX="0"
+                refY="6"
+                orient="auto">
+            <path d="M0,6 L12,0 L12,12 L0,6" style="fill: #000000;" />
+        </marker>
+        <marker
+                id="endArrow"
+                markerWidth="12"
+                markerHeight="12"
+                refX="12"
+                refY="6"
+                orient="auto">
+            <path d="M0,0 L12,6 L0,12 L0,0 " style="fill: #000000;" />
+        </marker>
+    </defs>
+    <line x1="-50"  y1="0" x2="-50"   y2="600"
+          style="stroke: #000000;
+	marker-start: url(#beginArrow);
+	marker-end: url(#endArrow);"/>
+    <defs>
+        <marker
+                id="beginArrow"
+                markerWidth="12"
+                markerHeight="12"
+                refX="0"
+                refY="6"
+                orient="auto">
+            <path d="M0,6 L12,0 L12,12 L0,6" style="fill: #000000;" />
+        </marker>
+        <marker
+                id="endArrow"
+                markerWidth="12"
+                markerHeight="12"
+                refX="12"
+                refY="6"
+                orient="auto">
+            <path d="M0,0 L12,6 L0,12 L0,0 " style="fill: #000000;" />
+        </marker>
+    </defs>
+    <line x1="0"  y1="650" x2="780"   y2="650"
+          style="stroke: #000000;
+	marker-start: url(#beginArrow);
+	marker-end: url(#endArrow);"/>
+    <text x="300" y="150" fill="white" transform="rotate(90 30,40)">600 cm</text>
+    <text x="390" y="700" fill="white">780 cm</text>
+</svg>
